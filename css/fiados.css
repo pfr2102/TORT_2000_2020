@@ -1,0 +1,101 @@
+
+#fiados .div-buscar{
+    padding-top: 10vh;
+    padding-left: 30px;
+}
+#fiados .div-buscar i{
+    position: absolute;
+    padding-top: 17px;
+    padding-left: 5px;
+    
+}
+
+#fiados .div-buscar i:hover{
+    cursor: pointer;
+}
+#fiados #buscar{
+    font-family: 'Roboto Slab',serif;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+#fiados table{
+    margin: auto;
+    width: 80%;
+    font-family: 'Roboto Slab',serif;
+    font-size: 1.3rem;
+}
+
+#fiados th{
+    background-color: #ddeeff;
+}
+
+#fiados td{
+    padding: 5px;
+}
+
+#fiados .div-botones{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#fiados .div-botones a{
+    text-decoration: none;
+    color: black;
+    border-radius: 19px;
+    padding-left : 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+    font-family: 'Roboto Slab',serif;
+    font-size: large;
+}
+
+/*-------AGREGAR------*/
+#agregar-fiado .formulario{
+    font-family: 'Roboto Slab',serif;
+    padding: 5px;
+    width: max(50%, 500px);
+    margin: auto;
+    padding-top: 15vh;
+}
+
+
+#agregar-fiado .formulario form fieldset, legend{
+    background-color: #ddeeff;
+    border: 1px solid black;
+}
+
+#agregar-fiado form label{
+    display: inline-block;
+    width: 90px;
+    margin-left: 27%;
+}
+
+#agregar-fiado .formulario *{
+    padding: 5px;
+}
+
+#agregar-fiado form legend{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#agregar-fiado form input[type='submit'], input[type='reset']{
+    background-color: #7bc0d3;
+    padding: 10px;
+    font-family: 'Roboto Slab',serif;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+
+#agregar-fiado .contenedor{
+    height: 100%;
+}

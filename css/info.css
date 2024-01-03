@@ -1,0 +1,75 @@
+#informacion .renglon-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;    
+}
+
+#informacion .renglon-documento{
+    width: 60%;
+    height: 70%;
+    margin-left: 200px;
+    margin-top: 100px;
+    background: #d9d9d9;
+    border: 2px solid black;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#informacion .renglon-documento p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    padding: 15px 10px 10px 20px;
+    text-align: left;
+}
+#informacion .renglon-documento button{
+    margin-top: 2px;
+    border-radius: 10px;
+    background:  #fafafa;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    width: 300px;
+}
+#informacion .renglon-documento button:hover{
+    background: linear-gradient(to right, #21575e,#7bc0d3);
+    color: white;
+}
+
+#informacion .renglon-documento i{
+    display: inline-block;
+    transform: rotateY(180deg);
+    color: black;
+}
+
+#informacion .renglon-titulo{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#informacion .renglon-titulo img{
+    width: 100%;
+}
+
+@media (max-width:1100px) {
+    #informacion .renglon-info{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;    
+        text-align: center;
+    }
+    #informacion .renglon-documento{
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 50px;
+        height: auto;
+        align-self: center;
+    }
+    #informacion .renglon-titulo{
+        margin: auto;
+        height: auto;
+    }
+    
+}
